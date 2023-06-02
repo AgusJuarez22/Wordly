@@ -1,0 +1,99 @@
+.nav{
+    background-color: #15171c;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bars{
+    margin-left: 2rem;
+    font-size: 2rem;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sideBarNav{
+    background: #15171c;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 350ms;
+    z-index: 10;
+    overflow-y: auto; 
+}
+.sideBarNav:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.sideBarNavClose{
+    background: #15171c;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 350ms;
+    z-index: 10;
+}
+.sideBarWrap{
+    width: 100%;
+}
+
+.SearchBar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sideBarLink{
+    display: flex;
+    color: #e1e9fc;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    list-style: none;
+    height: 60px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sideBarLabel{
+    margin-left: 16px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sideBarNav::-webkit-scrollbar {
+    width: 8px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  .sideBarNav::-webkit-scrollbar-track {
+    background: #312d2d; /* Color del fondo de la barra de desplazamiento */
+  }
+  
+  .sideBarNav::-webkit-scrollbar-thumb {
+    background: #1f1e1e; /* Color del pulgar de la barra de desplazamiento */
+    border-radius: 4px; /* Borde redondeado del pulgar */
+  }
+  
+  .sideBarNav::-webkit-scrollbar-thumb:hover {
+    background: #050505; /* Color del pulgar de la barra de desplazamiento al pasar el cursor sobre él */
+  }

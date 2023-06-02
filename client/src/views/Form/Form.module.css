@@ -1,0 +1,55 @@
+.error {
+    color: red;
+    border: 1px solid red;   
+}
+.text{
+    color: red;
+}
+
+.div{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  background: linear-gradient(to top, #0f0b49, #000000);
+}
+.div h1{
+    background-color: rgb(39, 41, 46);
+    color: #e1e9fc;
+    padding: 20px;
+}
+.form{
+    display: flex;
+    background-color: rgb(25, 26, 28);
+    border-radius: 10px;
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    font-size: large; 
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+}
+
+
+.form div {
+    margin-bottom: 50px;
+  }
+
+
+.submit{
+  background-color: #0f1234; 
+  border: none;
+  color: white; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px;
+  margin: 10px 0; 
+  border-radius: 5px; 
+  cursor: pointer
+}

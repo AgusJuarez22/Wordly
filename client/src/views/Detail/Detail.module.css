@@ -1,0 +1,33 @@
+.card {
+    display: flex;
+    align-items: stretch;
+    padding: 20px;
+    background: linear-gradient(to bottom, #111111, #09002a);
+    justify-content: flex-start;
+    gap: 120px;
+
+  }
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #e1e9fc;
+    font-size: 22px;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid rgb(28, 27, 27);
+    top: -2020px;
+}
+.card1 img{
+    width: 800px;
+    height: 250px;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.detail{
+    color: white;
+    margin: 0px;
+}

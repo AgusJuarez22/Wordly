@@ -1,0 +1,21 @@
+.card{
+    
+    background-color: #020b22;
+    border-radius: 15px;
+    color: #e1e9fc;
+    width: 300px;
+    height: 340px;
+    font-size: larger;
+} 
+
+.link p{
+    text-decoration: underline;
+    text-decoration-color: #020b22;
+}
+
+.card img{
+    width: 300px;
+    height: 200px;
+    padding: 0%;
+    border-radius: 15px;
+}
